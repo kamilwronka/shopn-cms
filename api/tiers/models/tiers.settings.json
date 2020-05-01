@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tiers",
+  "info": {
+    "name": "Tiers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "features": {
+      "type": "json"
+    }
+  }
+}
