@@ -5,8 +5,8 @@
       "connector": "mongoose",
       "settings": {
         "host": "${process.env.CMS_DATABASE_HOST || '127.0.0.1'}",
-        "port": "${process.env.CMS_DATABASE_PORT || 27020}",
-        "database": "${process.env.CMS_DATABASE_NAME || 'csgoed'}",
+        "port": "${process.env.CMS_DATABASE_PORT || 27017}",
+        "database": "${process.env.CMS_DATABASE_NAME || 'cms'}",
         "username": "${process.env.CMS_DATABASE_USERNAME || ''}",
         "password": "${process.env.CMS_DATABASE_PASSWORD || ''}"
       },
